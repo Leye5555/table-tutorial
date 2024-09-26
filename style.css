@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+table {
+  border-collapse: collapse;
+  border-radius: 20px;
+  margin: auto;
+  /* border: 1px solid; */
+}
+/* body > p:nth-of-type(2) {
+  background-image: url(../images/image-baklava-desktop.jpg);
+} */
+
+th,
+td {
+  /* border: 1px solid; */
+  padding: 40px;
+  font-size: 24px;
+}
+
+th {
+  color: rgb(118, 249, 70);
+  /* background-color: #00000063;
+   */
+  background-color: hsl(360 100% 0% / 0.5);
+}
+th:first-child {
+  border-top-left-radius: 12px;
+  border: none;
+}
+
+th:last-child {
+  border-top-right-radius: 12px;
+  border: none;
+}
+
+thead tr:nth-of-type(1) {
+  background-size: calc(100% + 20px);
+  background-image: url(../images/image-baklava-desktop.jpg);
+
+  background-position: -20px 0;
+  background-repeat: no-repeat;
+}
+tr:nth-child(odd) {
+  background-color: rgba(212, 212, 212, 0.673);
+}
+
+tr:nth-child(even) {
+  background-color: rgb(242, 242, 242);
+}
